@@ -154,7 +154,7 @@ void getStudentData(student *s) {
 		while (getchar() != '\n');
 	}
 	printf("Enter Student Name: ");
-	while (scanf("%s", s->name) != 1) {
+	while (scanf("%50s", s->name) != 1) {
 		printf("Invalid Input, Please Try Again ^_^\n");
 		while (getchar() != '\n');
 	}
